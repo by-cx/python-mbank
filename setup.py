@@ -12,7 +12,7 @@ setup(
     description = ("Python mBank parser"),
     license = "BSD",
     keywords = "mbank",
-    url = "",
+    url = "https://github.com/creckx/python-mbank",
     packages=find_packages(exclude=['requests']),
     long_description=read('README'),
     classifiers=[
