@@ -12,7 +12,8 @@ Features
 Usage
 -----
 
-    mbank = Mbank("customer id", "password")
+    from mbank.mbank import mBank
+    mbank = mBank("customer id", "password")
     mbank.login()
     result   = mbank.get_transactions("full account number")
     accounts = mbank.get_accounts()
