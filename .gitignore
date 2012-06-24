@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+*~
+python_mbank.egg-info/
+dist/
+build/
+.idea

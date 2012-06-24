@@ -1,0 +1,27 @@
+python-mbank - mBank Python parser
+===================================
+
+mBank parser for Python.
+
+Features
+--------
+
+* List of accounts
+* List of transactions
+
+Usage
+-----
+
+    mbank = Mbank("customer id", "password")
+    mbank.login()
+    result   = mbank.get_transactions("full account number")
+    accounts = mbank.get_accounts()
+
+Content of result variable:
+
+    [
+        <.....>
+        {'ss': 0, 'price': 5961.0500000000002, 'ks': 0, 'vs': 20120040, 'date_realization': datetime.date(2012, 6, 20), 'date_accounting': datetime.date(2012, 6, 20), 'type': 'incoming'},
+        {'ss': 0, 'price': 3961.0500000000002, 'ks': 7618, 'vs': 70577193, 'date_realization': datetime.date(2012, 6, 20), 'date_accounting': datetime.date(2012, 6, 20), 'type': 'outcoming'},
+        <.....>
+    ]
